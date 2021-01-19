@@ -431,4 +431,33 @@ p a {
   
   .nytLogo {
     height: 40px;
+  }  
+
+.editors-pick-article a {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-family: 'cheltenham-small', Arial, Helvetica, sans-serif;
+    color: #333;
+    text-decoration: none;
   }
+  
+
+.editors-pick-article {
+    height: 75px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .editors-pick-article a:hover {
+    text-decoration: underline;
+  }
+  
+  .editors-pick-img {
+    max-height: 75px;
+    max-width: 75px;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  
