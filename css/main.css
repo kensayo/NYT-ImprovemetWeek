@@ -124,3 +124,246 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+p a {
+  color: #326891;
+}
+
+.footerNav,
+.bottomFooter {
+  width: 1100px;
+  margin: auto;
+  border-top: 1px solid #d3d3d3;
+}
+
+.footerNav .footerNavHeader {
+  border-top: 2px solid #d3d3d3;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.footerNavHeader .footerNavLogo {
+  width: 230px;
+}
+
+.footerHomepage .homepageLink {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+
+.footerNavLinks {
+  display: inline-flex;
+}
+
+.footerNavLinks .leftLinks {
+  border-bottom: 1px solid #d3d3d3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+}
+
+.footerNavLinks .subscribeSpam {
+  padding: 0 20px;
+  border-left: 1px solid #d3d3d3;
+}
+
+.listItem1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.25rem;
+  padding-right: 1em;
+  padding-top: 0.75em;
+}
+
+.listItem2 {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin-top: 0.25rem;
+  line-height: 21px;
+}
+
+.subscribeSpam .subscribeSpamSVG {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.subscribeSpam .subscribeSpamLink {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bottomFooter .bottomFooterContent,
+.bottomFooterContent .LinksList,
+.listItem {
+  display: inline-block;
+}
+
+.listItem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #6c6960;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(2),
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  line-height: 2.1;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  border-top: 1px solid #d3d3d3;
+}
+
+.footer-link {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.subscribe-link {
+  font-size: 16px;
+  line-height: 14px;
+  color: #000;
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.footer-content {
+  width: 1160px;
+  height: 1230px;
+  margin: 0 auto;
+}
+
+.footer-content-left {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.footer-content-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+.footer-vertical-content {
+  margin: 10px 2%;
+  padding: 10px 2%;
+  border-top: solid 1px #000;
+  width: 96%;
+  height: auto;
+}
+
+.footer-vertical-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-grid-suggest {
+  margin-top: 10px;
+  border: solid 1px #e2e2e2;
+  width: 30%;
+  height: 263px;
+}
+
+.footer-newsletter-grid {
+  border: 1px solid lightgray;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: 15px;
+}
+
+.footer-newsletter-img {
+  width: 80px;
+}
+
+.footer-article {
+  border: none;
+  height: auto;
+}
+
+.footer-article-img {
+  max-width: 100%;
+}
+
+.most-popular-tittle {
+  width: 92%;
+  height: auto;
+  border-top: solid 1px #e2e2e2;
+  margin: 4%;
+  padding-top: 10px;
+}
+
+.suggest-container {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+}
+
+.suggest-button-container {
+  width: 100%;
+  padding: 0 15px;
+  height: 120px;
+}
+
+.plus {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  float: right;
+  padding: 4px 6px;
+}
+
+.plus:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+
+.link-suggest {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  color: #567b95;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
