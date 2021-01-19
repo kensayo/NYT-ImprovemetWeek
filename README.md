@@ -1,26 +1,29 @@
 # NYT-ImprovemetWeek
+
 Improvement Week - First Week on Microverse, clone a NYT article
 
 
 This project is a clone of the New times article website  (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). The objective of the project is the implement(put into use, showcase, cement) the skills learnt in the technical curriculum of microverse, which has to do with the positioning of elements using the various positioning techniques. The positing techniques used for this project are: floats, and flex-box, relative, absolute, fixed.
 Additional description about the project and its features.
+
 ## Built With
 - HTML5
 - CSS3
+
 ## Live Demo
 [Live Demo Link]()
-
 
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](issues/).
+
 ## Show your support
 Give a :star:? if you like this project!
+
 ## Acknowledgments
 - My coding partner
 - Stand up team
 - Mentors
-
 
 # screen shot here
 
@@ -28,11 +31,6 @@ Give a :star:? if you like this project!
 ## Getting Started
 Clone the repository to your computer using GitBash or your favorite terminal.
 Open de html files on your browser.
-Unpack the files on your text editor or IDE.
-
-
-
-
 
 ## Authors
 
@@ -44,6 +42,8 @@ Unpack the files on your text editor or IDE.
 
 👤 **Author2**
 
+- GitHub: [kensayo](https://github.com/kensayo))
+- Twitter: [@kensayo] (https://twitter.com/kensayo)
 
 ## 📝 License
 MIT License
