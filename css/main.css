@@ -51,7 +51,6 @@ p a:hover {
   background-color: #567b95;
   border: solid #326891 1px;
   text-decoration: none;
-  /* display: inline-block; */
   cursor: pointer;
   text-align: center;
   margin: 3px;
@@ -485,6 +484,16 @@ h4 {
   margin-left: 15px;
 }
 
+.social-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 26%;
+  height: 100%;
+  margin: 15rem;
+}
+
 .read-comments > button {
   background-color: rgb(50, 104, 145);
   padding: 0.7rem;
@@ -527,16 +536,6 @@ h4 {
   height: 20px;
   background-color: rgb(230, 223, 223);
   width: 20px;
-}
-
-.social-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  width: 26%;
-  height: 100%;
-  margin: 15rem;
 }
 
 .chat-btn {
@@ -610,4 +609,3 @@ h4 {
 .caption-inf {
   text-align: right;
 }
-
