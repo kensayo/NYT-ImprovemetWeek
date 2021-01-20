@@ -1,0 +1,622 @@
+@import "font.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+p a {
+  color: #326891;
+}
+
+.left_items a {
+  margin-right: 10px;
+  color: #000;
+}
+
+.editors-pick-article a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: "cheltenham-small", Arial, Helvetica, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.nav_button {
+  border-radius: 3px;
+  color: #fff;
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #567b95;
+  border: solid #326891 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 3px;
+  float: right;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.chat-btn,
+.link-suggest,
+.nav_button {
+  text-transform: uppercase;
+}
+
+.nav_button:hover {
+  border: solid#326891 1px;
+  background: #326891;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 43px;
+  width: 100%;
+  border-bottom: solid 1px rgb(100, 100, 100);
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.navbar .navbarTitle {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.left_items {
+  width: 300px;
+}
+
+.centered_items {
+  width: auto;
+}
+
+.centered_items img {
+  height: 30px;
+}
+
+.right_items {
+  width: 300px;
+  justify-items: right;
+}
+
+.nytLogo {
+  height: 40px;
+}
+
+.image_center {
+  margin: 90px auto 0 auto;
+  width: 945px;
+}
+
+.text_article {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.img_full {
+  width: 100%;
+}
+
+.theory_grid {
+  width: 945px;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: repeat(4, 137px);
+  background-image: url(../images/theoryImage.png);
+  background-size: cover;
+}
+
+.theory_grid_item {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 300;
+  color: #000;
+  padding-left: 0.5em;
+}
+
+.theory_grid_item .theoryTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.theory_grid_block {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.caption {
+  color: #666;
+  font-size: small;
+  line-height: 20px;
+  width: 38rem;
+  margin-left: 11rem;
+}
+
+.Credit {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  color: #333;
+  margin-left: 11rem;
+}
+
+.headline > figure + p {
+  margin: 3rem 11rem 0.6rem 11.3rem;
+  font-weight: bold;
+}
+
+.headline > time {
+  font-size: small;
+  margin: 8rem 11rem 0.2rem 11.3rem;
+}
+
+.main-tittle {
+  font-size: 40px;
+  font-family: "cheltenham", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  line-height: 48px;
+  color: #121212;
+  font-weight: 700;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.paragraph1 {
+  font-family: "imperial", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  padding: 0.4em;
+}
+
+.social-share {
+  width: 600px;
+  height: auto;
+  margin: 25px auto 0 auto;
+}
+
+.social-icon {
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+}
+
+aside {
+  width: 20%;
+  height: 250px;
+  float: right;
+}
+
+.editors-pick {
+  float: left;
+  width: 210px;
+  height: 250px;
+}
+
+.editors-pick-article {
+  height: 75px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.editors-pick-article a:hover {
+  text-decoration: underline;
+}
+
+.editors-pick-img {
+  max-height: 75px;
+  max-width: 75px;
+  float: left;
+  margin-right: 15px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #333;
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+  font-family: "cheltenham", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.youtubeVideo {
+  margin-left: calc((100% - 600px) / 2);
+}
+
+.youtubeVideo figcaption {
+  width: 560px;
+  margin: 0.6rem 1.25rem 0 0;
+  font-size: 13px;
+  color: #888;
+}
+
+.footerNav,
+.bottomFooter {
+  width: 1100px;
+  margin: auto;
+  border-top: 1px solid #d3d3d3;
+}
+
+.footerNav .footerNavHeader {
+  border-top: 2px solid #d3d3d3;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.footerNavHeader .footerNavLogo {
+  width: 230px;
+}
+
+.footerHomepage .homepageLink {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+
+.footerNavLinks {
+  display: inline-flex;
+}
+
+.footerNavLinks .leftLinks {
+  border-bottom: 1px solid #d3d3d3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+}
+
+.footerNavLinks .subscribeSpam {
+  padding: 0 20px;
+  border-left: 1px solid #d3d3d3;
+}
+
+.listItem1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.25rem;
+  padding-right: 1em;
+  padding-top: 0.75em;
+}
+
+.listItem2 {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin-top: 0.25rem;
+  line-height: 21px;
+}
+
+.subscribeSpam .subscribeSpamSVG {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.subscribeSpam .subscribeSpamLink {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bottomFooter .bottomFooterContent,
+.bottomFooterContent .LinksList,
+.listItem {
+  display: inline-block;
+}
+
+.listItem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #6c6960;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(2),
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  line-height: 2.1;
+}
+
+.footerNavLinks .subscribeSpam ul:nth-child(3) {
+  border-top: 1px solid #d3d3d3;
+}
+
+.footer-link {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.subscribe-link {
+  font-size: 16px;
+  line-height: 14px;
+  color: #000;
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.footer-content {
+  width: 1160px;
+  height: 1230px;
+  margin: 0 auto;
+}
+
+.footer-content-left {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.footer-content-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+.footer-vertical-content {
+  margin: 10px 2%;
+  padding: 10px 2%;
+  border-top: solid 1px #000;
+  width: 96%;
+  height: auto;
+}
+
+.footer-vertical-grid {
+  display: flex;
+}
+
+.footer-grid-suggest {
+  margin-top: 10px;
+  border: solid 1px #e2e2e2;
+  width: 30%;
+  height: 263px;
+}
+
+.footer-newsletter-grid {
+  border: 1px solid lightgray;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: 15px;
+}
+
+.footer-newsletter-img {
+  width: 80px;
+}
+
+.footer-article {
+  border: none;
+  height: auto;
+}
+
+.footer-article-img {
+  max-width: 100%;
+}
+
+.most-popular-tittle {
+  width: 92%;
+  height: auto;
+  border-top: solid 1px #e2e2e2;
+  margin: 4%;
+  padding-top: 10px;
+}
+
+.suggest-container {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+}
+
+.suggest-button-container {
+  width: 100%;
+  padding: 0 15px;
+  height: 120px;
+}
+
+.plus {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  float: right;
+  padding: 4px 6px;
+}
+
+.plus:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+
+.link-suggest {
+  font-family: "franklin", Arial, Helvetica, sans-serif;
+  color: #567b95;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-left: 15px;
+}
+
+.social-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 26%;
+  height: 100%;
+  margin: 15rem;
+}
+
+.read-comments > button {
+  background-color: rgb(50, 104, 145);
+  padding: 0.7rem;
+  height: 2rem;
+  width: 23rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.read-comments {
+  width: 38rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.read-comments > .comment-socials {
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-inner > .fb,
+.twi,
+.msg,
+.share,
+.comm {
+  border-radius: 50%;
+  height: 20px;
+  background-color: rgb(230, 223, 223);
+  width: 20px;
+}
+
+.chat-btn {
+  align-self: center;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  min-width: 24px;
+  overflow: visible;
+  padding: 2px 5px 4px;
+  position: relative;
+}
+
+.chat-i::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0 0 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+}
+
+.chat-i::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0 0 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+}
+
+.chat-span {
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin-top: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.comm {
+  margin-bottom: -10px;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+}
+
+#telescope {
+  width: 39rem;
+  margin-left: 10rem;
+}
+
+.caption-inf {
+  text-align: left;
+}
+
+.navbar,
+.left_items,
+.read-comments > .comment-socials,
+.footer-vertical-grid {
+  justify-content: space-around;
+}
