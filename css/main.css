@@ -152,14 +152,17 @@ p a:hover {
 
 .caption {
   color: #666;
-  font-size: 15px;
+  font-size: small;
   line-height: 20px;
+  width: 38rem;
+  margin-left: 11rem;
 }
 
 .Credit {
   text-decoration: underline;
   text-decoration-color: #ccc;
   color: #333;
+  margin-left: 11rem;
 }
 
 .main-tittle {
@@ -479,3 +482,130 @@ h4 {
   text-transform: uppercase;
   margin-left: 15px;
 }
+
+.read-comments > button {
+  background-color: rgb(50, 104, 145);
+  padding: 0.7rem;
+  height: 2rem;
+  width: 23rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.read-comments {
+  width: 38rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.read-comments > .comment-socials {
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read-comments > .comment-socials > .social-inner {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.social-inner > .fb,
+.twi,
+.msg,
+.share,
+.comm {
+  border-radius: 50%;
+  height: 20px;
+  background-color: rgb(230, 223, 223);
+  width: 20px;
+}
+
+.social-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 26%;
+  height: 100%;
+  margin: 15rem;
+}
+
+.chat-btn {
+  align-self: center;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  min-width: 24px;
+  overflow: visible;
+  padding: 2px 5px 4px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.chat-i::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0 0 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+}
+
+.chat-i::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0 0 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+}
+
+.chat-span {
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin-top: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.comm {
+  margin-bottom: -10px;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+}
+
+#telescope {
+  width: 39rem;
+  margin-left: 10rem;
+}
+
+.caption-inf {
+  text-align: right;
+}
+
