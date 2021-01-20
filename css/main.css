@@ -59,6 +59,11 @@ p a:hover {
   line-height: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
+}
+
+.chat-btn,
+.link-suggest,
+.nav_button {
   text-transform: uppercase;
 }
 
@@ -75,7 +80,6 @@ p a:hover {
   width: 100%;
   border-bottom: solid 1px rgb(100, 100, 100);
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background: #fff;
 }
@@ -88,7 +92,6 @@ p a:hover {
 
 .left_items {
   width: 300px;
-  justify-content: space-around;
 }
 
 .centered_items {
@@ -164,6 +167,16 @@ p a:hover {
   text-decoration-color: #ccc;
   color: #333;
   margin-left: 11rem;
+}
+
+.headline > figure + p {
+  margin: 3rem 11rem 0.6rem 11.3rem;
+  font-weight: bold;
+}
+
+.headline > time {
+  font-size: small;
+  margin: 8rem 11rem 0.2rem 11.3rem;
 }
 
 .main-tittle {
@@ -404,7 +417,6 @@ h4 {
 
 .footer-vertical-grid {
   display: flex;
-  justify-content: space-around;
 }
 
 .footer-grid-suggest {
@@ -480,7 +492,6 @@ h4 {
   line-height: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   margin-left: 15px;
 }
 
@@ -515,16 +526,10 @@ h4 {
 }
 
 .read-comments > .comment-socials {
-  width: 20rem;
+  width: 10rem;
   height: 3rem;
   display: flex;
-  justify-content: flex-end;
-}
-
-.read-comments > .comment-socials > .social-inner {
-  display: flex;
-  gap: 1rem;
-  padding: 1rem;
+  align-items: center;
 }
 
 .social-inner > .fb,
@@ -559,7 +564,6 @@ h4 {
   overflow: visible;
   padding: 2px 5px 4px;
   position: relative;
-  text-transform: uppercase;
 }
 
 .chat-i::after {
@@ -607,5 +611,12 @@ h4 {
 }
 
 .caption-inf {
-  text-align: right;
+  text-align: left;
+}
+
+.navbar,
+.left_items,
+.read-comments > .comment-socials,
+.footer-vertical-grid {
+  justify-content: space-around;
 }
