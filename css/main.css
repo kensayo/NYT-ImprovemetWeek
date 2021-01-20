@@ -485,58 +485,43 @@ h4 {
   margin-left: 15px;
 }
 
-.read-comments > button {
-  background-color: rgb(50, 104, 145);
-  padding: 0.7rem;
-  height: 2rem;
-  width: 23rem;
-  outline: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  color: white;
-}
-
 .read-comments {
-  width: 38rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 2rem auto;
-}
-
-.read-comments > .comment-socials {
-  width: 20rem;
-  height: 3rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.read-comments > .comment-socials > .social-inner {
+  margin: 2.6rem auto;
+  width: 40rem;
   display: flex;
   gap: 1rem;
-  padding: 1rem;
-}
-
-.social-inner > .fb,
-.twi,
-.msg,
-.share,
-.comm {
-  border-radius: 50%;
-  height: 20px;
-  background-color: rgb(230, 223, 223);
-  width: 20px;
-}
-
-.social-inner {
-  display: flex;
-  align-items: center;
+  height: 3rem;
   justify-content: space-between;
-  gap: 2rem;
-  width: 26%;
-  height: 100%;
-  margin: 15rem;
+  align-items: center;
+}
+
+.comment-socials {
+  width: 12rem;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.comment-socials svg {
+  background-color: #ebe6e6;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.4rem;
+  padding: 2px;
+}
+
+.comment-button {
+  height: 30px;
+  margin-left: 2rem;
+  background-color: #326891;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
 }
 
 .chat-btn {
@@ -610,4 +595,3 @@ h4 {
 .caption-inf {
   text-align: right;
 }
-
