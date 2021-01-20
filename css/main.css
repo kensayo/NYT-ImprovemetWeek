@@ -1,3 +1,5 @@
+@import "font.css";
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -108,7 +110,7 @@ p a:hover {
 }
 
 .image_center {
-  margin: 120px auto 0 auto;
+  margin: 90px auto 0 auto;
   width: 945px;
 }
 
