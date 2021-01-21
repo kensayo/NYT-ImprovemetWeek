@@ -505,6 +505,16 @@ h4 {
   margin: 15rem;
 }
 
+form button {
+  background-color: #326891;
+  width: 40%;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
 .read-comments > button {
   background-color: rgb(50, 104, 145);
   padding: 0.7rem;
@@ -633,16 +643,6 @@ form {
   gap: 10px;
   justify-content: center;
   align-items: center;
-}
-
-form button {
-  background-color: #326891;
-  width: 40%;
-  outline: none;
-  border: none;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 6px;
 }
 
 .form-div {
