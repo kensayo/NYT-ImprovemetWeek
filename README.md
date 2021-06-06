@@ -41,7 +41,7 @@ Most Operative Systems have the .html file extension associated to open with you
 
 - GitHub: [kensayo](https://github.com/kensayo)
 - Twitter: [@kensayo](https://twitter.com/kensayo)
-- LinkedIn: [LinkedIn](fortuneonyeka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennyortega/)
 
 ## 🤝 Contributing
 
